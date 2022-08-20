@@ -7,13 +7,13 @@ from reviews.models import (Category, Comments, Genre, Review, Title,
                             TitlesGenres, User)
 
 FILES = [
-    f'{BASE_DIR}\\static\\data\\category.csv',
-    f'{BASE_DIR}\\static\\data\\titles.csv',
-    f'{BASE_DIR}\\static\\data\\genre.csv',
-    f'{BASE_DIR}\\static\\data\\genre_title.csv',
-    f'{BASE_DIR}\\static\\data\\users.csv',
-    f'{BASE_DIR}\\static\\data\\review.csv',
-    f'{BASE_DIR}\\static\\data\\comments.csv',
+    f'{BASE_DIR}/static/data/category.csv',
+    f'{BASE_DIR}/static/data/titles.csv',
+    f'{BASE_DIR}/static/data/genre.csv',
+    f'{BASE_DIR}/static/data/genre_title.csv',
+    f'{BASE_DIR}/static/data/users.csv',
+    f'{BASE_DIR}/static/data/review.csv',
+    f'{BASE_DIR}/static/data/comments.csv',
 ]
 
 

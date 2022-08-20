@@ -100,7 +100,7 @@ python manage.py migrate
 # - Загружаем подготовленные данные в БД.
 python manage.py importcsv
 
-# - Запустить проект (в режиме сервера Django):
+# - Запустить проект.
 python manage.py runserver
 ```
 

@@ -80,19 +80,26 @@
 ###### *скопируйте содержимое поля снизу и запустите через командную строку.
 
 ```bash
+# - Скачиваем проект.
 git clone 'git@github.com:cookievii/api_yamdb.git'
+
 # - Cоздаем виртуальное окружение.
 python -m venv venv
 source venv/bin/activate
+
 # - Установить зависимости из файла "requirements.txt".
 pip install -r requirements.txt
+
 # - Переходим в папку "api_yamdb".
 cd api_yamdb/
+
 # - Выполняем миграции БД.
 python manage.py makemigrations
 python manage.py migrate
+
 # - Загружаем подготовленные данные в БД.
 python manage.py importcsv
+
 # - Запустить проект (в режиме сервера Django):
 python manage.py runserver
 ```

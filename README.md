@@ -81,10 +81,10 @@
 
 ```bash
 # - Скачиваем проект.
-git clone 'git@github.com:cookievii/api_yamdb.git'
+git clone git@github.com:cookievii/Yamdb_GroupProject.git
 
 # - Cоздаем виртуальное окружение.
-python -m venv venv
+python3 -m venv venv
 source venv/bin/activate
 
 # - Установить зависимости из файла "requirements.txt".
@@ -94,14 +94,14 @@ pip install -r requirements.txt
 cd api_yamdb/
 
 # - Выполняем миграции БД.
-python manage.py makemigrations
-python manage.py migrate
+python3 manage.py makemigrations
+python3 manage.py migrate
 
 # - Загружаем подготовленные данные в БД.
-python manage.py importcsv
+python3 manage.py importcsv
 
 # - Запустить проект.
-python manage.py runserver
+python3 manage.py runserver
 ```
 
 ----------
